@@ -5,6 +5,7 @@ applyTo: '**'
 ---
 # Copilot Instructions for SSHA (Entrypoint)
 
+
 This documentation is modularized for maintainability and clarity. Each section is in its own file:
 
 - [Project Overview](instructions/copilot/01-project-overview.instructions.md)
@@ -12,6 +13,7 @@ This documentation is modularized for maintainability and clarity. Each section 
 - [Guidance for AI Agents](instructions/copilot/03-guidance-for-ai-agents.instructions.md)
 - [Commit Message Policy](instructions/copilot/04-commit-message-policy.instructions.md)
 - [License](instructions/copilot/05-license.instructions.md)
+- [Ruby Specs Directory Convention](instructions/copilot/06-rubyspecs-folder.instructions.md)
 
 Refer to each file for detailed best practices. Update or extend individual sections as the workflow evolves.
 

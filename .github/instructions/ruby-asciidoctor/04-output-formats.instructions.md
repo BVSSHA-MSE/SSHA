@@ -1,7 +1,7 @@
 ---
 name: Ruby Asciidoctor Output Formats
 description: Output format best practices for HTML, PDF, EPUB3, Reveal.js, and diagrams
-applyTo: '**'
+applyTo: 'src/**/*.rb, src/**/*.adoc, output/**/*.html, output/**/*.pdf, output/**/*.epub'
 ---
 # Output Format Best Practices
 

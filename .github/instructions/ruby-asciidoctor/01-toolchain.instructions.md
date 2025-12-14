@@ -1,7 +1,7 @@
 ---
 name: Ruby Asciidoctor Toolchain
 description: Toolchain and version compatibility for Ruby Asciidoctor and plugins
-applyTo: '**'
+applyTo: '**/Gemfile, **/Gemfile.lock, src/**/*.rb, src/**/*.adoc, output/**/*.html, output/**/*.pdf, output/**/*.epub'
 ---
 # Toolchain & Version Compatibility
 

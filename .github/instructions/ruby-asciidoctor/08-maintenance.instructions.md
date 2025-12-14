@@ -1,7 +1,7 @@
 ---
 name: Ruby Asciidoctor Maintenance
 description: Maintenance best practices for Ruby Asciidoctor documentation and plugins
-applyTo: '**'
+applyTo: 'src/**/*.rb, src/**/*.adoc, output/**/*.html, output/**/*.pdf, output/**/*.epub'
 ---
 # Maintenance
 

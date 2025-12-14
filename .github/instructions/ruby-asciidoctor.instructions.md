@@ -1,7 +1,7 @@
 ---
-name: Ruby Asciidoctor Best Practices (Entrypoint)
+name: Ruby Asciidoctor Best Practices Entrypoint
 description: Entrypoint and index for modular Ruby Asciidoctor best practices instructions
-applyTo: '**'
+applyTo: 'src/**/*.rb, src/**/*.adoc, output/**/*.html, output/**/*.pdf, output/**/*.epub'
 ---
 # Ruby Asciidoctor & Plugins: Best Practices (Entrypoint)
 

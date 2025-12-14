@@ -1,7 +1,7 @@
 ---
 name: Ruby Asciidoctor References
 description: Reference links for Ruby Asciidoctor and plugins
-applyTo: '**'
+applyTo: 'src/**/*.rb, src/**/*.adoc, output/**/*.html, output/**/*.pdf, output/**/*.epub'
 ---
 # References
 

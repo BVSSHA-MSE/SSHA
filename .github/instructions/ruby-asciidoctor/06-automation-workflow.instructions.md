@@ -1,7 +1,7 @@
 ---
 name: Ruby Asciidoctor Automation & Workflow
 description: Automation and workflow best practices for Ruby Asciidoctor documentation
-applyTo: '**'
+applyTo: 'src/**/*.rb, src/**/*.adoc, output/**/*.html, output/**/*.pdf, output/**/*.epub'
 ---
 # Automation & Workflow
 

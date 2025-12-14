@@ -1,7 +1,7 @@
 ---
 name: Ruby Asciidoctor Accessibility & Quality
 description: Accessibility and quality best practices for Ruby Asciidoctor documentation
-applyTo: '**'
+applyTo: 'src/**/*.rb, src/**/*.adoc, output/**/*.html, output/**/*.pdf, output/**/*.epub'
 ---
 # Accessibility & Quality
 

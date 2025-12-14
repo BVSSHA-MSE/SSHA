@@ -8,9 +8,10 @@
 - Numbered directories are intentionally spaced to allow future expansion without structural disruption.
 
 ## Key Files & Structure
-- The repository currently contains a `README.md` and `LICENSE` file. Content is organized in numbered directories (not present yet) to support incremental, non-disruptive growth.
+- The repository currently contains a `README.md`, `LICENSE`, and `CONVENTIONAL_COMMITS.md` file. Content is organized in numbered directories (not present yet) to support incremental, non-disruptive growth.
 - No source code, configuration, or build/test scripts are present at this time.
-- There are no documented developer workflows, build systems, or test conventions.
+- The repository documents its commit message policy in `CONVENTIONAL_COMMITS.md` (see below).
+- There are no other documented developer workflows, build systems, or test conventions at this time.
 
 ## Guidance for AI Agents
 - **Clarify requirements**: For any code generation, ask the user for the intended language, framework, and high-level goals.
@@ -18,7 +19,11 @@
 - **Document assumptions**: Clearly comment on any assumptions made about architecture, workflows, or conventions.
 - **Reference standards**: In the absence of project-specific conventions, follow best practices for the chosen language/framework.
 - **Respect the intent**: Prioritize learning, experimentation, and contribution over rigid structure or prescription.
+- **Follow commit message policy**: All commit messages must strictly follow the Conventional Commits 1.0.0 format as documented in `CONVENTIONAL_COMMITS.md` at the repository root.
 - **Update this file**: When new patterns, workflows, or conventions are established, update `.github/copilot-instructions.md` to reflect them.
+## Commit Message Policy
+- All commits must strictly follow the Conventional Commits 1.0.0 specification as described in `CONVENTIONAL_COMMITS.md` at the repository root. See that file for required types, structure, and examples.
+
 
 ## Example: Starting a Python Project
 - If the user requests a Python implementation, create a `src/` directory, add a `main.py`, and set up a `requirements.txt`.

@@ -1,4 +1,4 @@
-# Convention Commit 2.0 - Strict Commit Message Format
+# Convention Commit 1.0.0 - Strict Commit Message Format
 
 **Structure:**
 ```
@@ -35,7 +35,7 @@ feat(api)!: change API response format
 And include a BREAKING CHANGE: section in the footer.
 
 ## 4. Description
-- Use the imperative mood (“add”, not “adds” or “added”)
+- Use the imperative mood ("add", not "adds" or "added")
 - No trailing period
 - Keep under 72 characters
 
@@ -65,5 +65,5 @@ Closes #42
 ---
 
 **References:**  
-- [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)  
-- [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+- [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/)

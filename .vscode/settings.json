@@ -1,4 +1,5 @@
 {
+  "git.branchProtectionPrompt": "alwaysCommit",
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
       "file": "CONVENTIONAL_COMMITS.md"

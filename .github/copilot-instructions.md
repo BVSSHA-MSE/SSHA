@@ -11,7 +11,6 @@ This documentation is modularized for maintainability and clarity. Each section 
 - [Key Files & Structure](instructions/copilot/02-key-files-structure.instructions.md)
 - [Guidance for AI Agents](instructions/copilot/03-guidance-for-ai-agents.instructions.md)
 - [Commit Message Policy](instructions/copilot/04-commit-message-policy.instructions.md)
-- [Example: Starting a Python Project](instructions/copilot/05-example-python-project.instructions.md)
-- [License](instructions/copilot/06-license.instructions.md)
+- [License](instructions/copilot/05-license.instructions.md)
 
 Refer to each file for detailed best practices. Update or extend individual sections as the workflow evolves.

@@ -9,9 +9,9 @@
 
 ## Key Files & Structure
 - The repository currently contains a `README.md`, `LICENSE`, and `CONVENTIONAL_COMMITS.md` file. Content is organized in numbered directories (not present yet) to support incremental, non-disruptive growth.
-- No source code, configuration, or build/test scripts are present at this time.
-- The repository documents its commit message policy in `CONVENTIONAL_COMMITS.md` (see below).
-- There are no other documented developer workflows, build systems, or test conventions at this time.
+- This is a documentation-first workspace: no source code, configuration, or build/test scripts are present at this time.
+- The repository documents its strict Conventional Commits 1.0.0 commit message policy in `CONVENTIONAL_COMMITS.md` (see below).
+- There are no other documented developer workflows, build systems, or test conventions at this time. Update this file if/when code or workflows are introduced.
 
 ## Guidance for AI Agents
 - **Clarify requirements**: For any code generation, ask the user for the intended language, framework, and high-level goals.
@@ -22,7 +22,7 @@
 - **Follow commit message policy**: All commit messages must strictly follow the Conventional Commits 1.0.0 format as documented in `CONVENTIONAL_COMMITS.md` at the repository root.
 - **Update this file**: When new patterns, workflows, or conventions are established, update `.github/copilot-instructions.md` to reflect them.
 ## Commit Message Policy
-- All commits must strictly follow the Conventional Commits 1.0.0 specification as described in `CONVENTIONAL_COMMITS.md` at the repository root. See that file for required types, structure, and examples.
+- All commits must strictly follow the Conventional Commits 1.0.0 specification as described in `CONVENTIONAL_COMMITS.md` at the repository root. See that file for required types, structure, and examples. This policy is mandatory for all contributions.
 
 
 ## Example: Starting a Python Project

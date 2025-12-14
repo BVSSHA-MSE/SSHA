@@ -14,3 +14,5 @@ This documentation is modularized for maintainability and clarity. Each section 
 - [License](instructions/copilot/05-license.instructions.md)
 
 Refer to each file for detailed best practices. Update or extend individual sections as the workflow evolves.
+
+Always adhere to the [GROUND RULES](../GROUND_RULES.md).

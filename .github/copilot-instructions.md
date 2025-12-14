@@ -8,12 +8,12 @@ applyTo: '**'
 
 This documentation is modularized for maintainability and clarity. Each section is in its own file:
 
-- [Project Overview](instructions/copilot/01-project-overview.instructions.md)
-- [Key Files & Structure](instructions/copilot/02-key-files-structure.instructions.md)
-- [Guidance for AI Agents](instructions/copilot/03-guidance-for-ai-agents.instructions.md)
-- [Commit Message Policy](instructions/copilot/04-commit-message-policy.instructions.md)
-- [License](instructions/copilot/05-license.instructions.md)
-- [Ruby Specs Directory Convention](instructions/copilot/06-rubyspecs-folder.instructions.md)
+- [Project Overview](instructions/copilot/project-overview.instructions.md)
+- [Key Files & Structure](instructions/copilot/key-files-structure.instructions.md)
+- [Guidance for AI Agents](instructions/copilot/guidance-for-ai-agents.instructions.md)
+- [Commit Message Policy](instructions/copilot/commit-message-policy.instructions.md)
+- [License](instructions/copilot/license.instructions.md)
+- [Ruby Specs Directory Convention](instructions/copilot/rubyspecs-folder.instructions.md)
 
 Refer to each file for detailed best practices. Update or extend individual sections as the workflow evolves.
 

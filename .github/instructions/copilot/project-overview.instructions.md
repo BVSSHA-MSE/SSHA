@@ -3,7 +3,7 @@ name: Copilot Project Overview
 description: Overview and intent of the SSHA documentation-first workspace and Copilot's role
 applyTo: '**'
 ---
-# Project Overview
+# Copilot Project Overview
 
 - **Annual SSH Advocacy** is a personal, long-lived advocacy and learning portfolio aligned with Better Value Sooner Safer Happier principles.
 - The repository captures learning, experimentation, reflection, and contribution over time, with content ranging from raw notes to polished outputs.

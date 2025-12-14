@@ -3,7 +3,6 @@ name: Copilot Ruby Specs Directory Convention
 description: Enforce that all Ruby Specs are placed in a `/specs` base directory.
 applyTo: '**/*.rb'
 ---
-
 # Ruby Specs Directory Convention
 
 - All Ruby Specs **must** be placed in the `/specs` directory.

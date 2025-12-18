@@ -1,3 +1,8 @@
+---
+name: Modularize Instruction Set
+description: Split a monolithic instruction set into multiple modular markdown files.
+tools: ['search', 'edit']
+---
 Please consider the monolith instruction set.
 - It might be attached
 - It might be added as a file path
@@ -18,6 +23,6 @@ Example:
 ---
 name: My Modular Instruction
 description: A target instruction that considers a small part of a larger instruction set
-applyTo: # relevant glob patterns of any combination of files, directories, and/or subdirectories
+applyTo: '**' # relevant glob patterns of any combination of files, directories, and/or subdirectories
 ---
 ```

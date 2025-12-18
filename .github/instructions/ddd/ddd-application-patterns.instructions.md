@@ -6,8 +6,17 @@ applyTo: '**/*.rb, **/*.md'
 
 # DDD Application Patterns (Ruby)
 
-## Application Service Example
+When generating application layer code, follow these patterns:
+
+## Application Services
+**Purpose:** Orchestrate use cases; coordinate domain objects, repos, and events.
+**Rules:**
+- Inject dependencies (repos, services, event bus)
+- No business logic—delegate to domain
+- Return IDs or simple results, not domain objects
+
 ```ruby
+# ✅ CORRECT: Thin orchestration, delegates to domain
 class PlaceOrderService
   def initialize(order_repo:, inventory_service:, event_bus:)
     @order_repo = order_repo
@@ -25,6 +34,42 @@ class PlaceOrderService
 end
 ```
 
-## CQRS
-- **Commands:** Change state, return void/ID.
-- **Queries:** Return data, never change state.
+## CQRS (Command Query Responsibility Segregation)
+
+### Commands
+**Purpose:** Change state.
+**Rules:** Return void or ID only; never return data for reading.
+```ruby
+# ✅ Command: changes state, returns ID
+class CreateUserCommand
+  def execute(name:, email:)
+    user = User.new(name:, email:)
+    @user_repo.save(user)
+    user.id
+  end
+end
+```
+
+### Queries
+**Purpose:** Read data.
+**Rules:** Never change state; return DTOs or read models.
+```ruby
+# ✅ Query: reads data, no side effects
+class UsersByStatusQuery
+  def execute(status:)
+    @read_model.users_by_status(status)
+  end
+end
+```
+
+### Avoid Mixing
+```ruby
+# ❌ WRONG: Query that also changes state
+class GetAndMarkUserAsViewedQuery
+  def execute(user_id:)
+    user = @repo.find(user_id)
+    user.mark_as_viewed!  # side effect in query
+    user
+  end
+end
+```

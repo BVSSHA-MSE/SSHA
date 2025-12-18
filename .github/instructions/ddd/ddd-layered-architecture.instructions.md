@@ -6,9 +6,71 @@ applyTo: '**/*.rb, **/*.md'
 
 # DDD Layered Architecture (Ruby)
 
-- **User Interface:** Controllers, views.
-- **Application Layer:** Orchestrates use cases, no business logic.
-- **Domain Layer:** Entities, value objects, domain services.
-- **Infrastructure Layer:** Persistence, external APIs.
+When structuring Ruby DDD applications, organize code into these layers:
 
-**Dependency Rule:** Only depend inward (domain has no infra dependencies).
+```mermaid
+graph LR
+    UI[UI Layer] --> Application[Application Layer]
+    Application --> Domain[Domain Layer]
+    Infrastructure[Infrastructure Layer] -.implements.-> Domain
+    
+    style Domain fill:#e1f5e1
+    style Application fill:#e3f2fd
+    style UI fill:#fff3e0
+    style Infrastructure fill:#fce4ec
+```
+
+## User Interface Layer
+**Contains:** Controllers, views, API endpoints, CLI.
+**Rules:** Thin; delegates to application services immediately.
+
+## Application Layer
+**Contains:** Use case orchestration, transaction management.
+**Rules:** No business logic; coordinates domain objects and infrastructure.
+```ruby
+# ✅ Application service: orchestrates, no business logic
+class PlaceOrderUseCase
+  def execute(cart_id:, customer_id:)
+    cart = @cart_repo.find(cart_id)
+    order = OrderFactory.create_from_cart(cart, customer_id)
+    @order_repo.save(order)
+    order.id
+  end
+end
+```
+
+## Domain Layer
+**Contains:** Entities, value objects, aggregates, domain services, domain events.
+**Rules:** Pure Ruby; no framework or infrastructure dependencies.
+```ruby
+# ✅ Domain layer: pure Ruby, no ActiveRecord
+class Order
+  def submit
+    raise "Empty order" if @items.empty?
+    @status = :submitted
+  end
+end
+```
+
+## Infrastructure Layer
+**Contains:** Repositories (implementations), external API clients, persistence.
+**Rules:** Implements domain interfaces; depends on domain, not vice versa.
+```ruby
+# ✅ Infrastructure implements domain interface
+class PostgresOrderRepository < OrderRepository
+  def save(order)
+    # ActiveRecord/SQL lives here, not in domain
+  end
+end
+```
+
+## Critical Dependency Rule
+**Dependencies point inward only.** Domain has zero external dependencies.
+```ruby
+# ❌ WRONG: Domain depends on infrastructure
+class Order < ActiveRecord::Base
+
+# ✅ CORRECT: Infrastructure depends on domain
+class ActiveRecordOrderRepository
+  def save(order)  # order is a pure domain object
+```

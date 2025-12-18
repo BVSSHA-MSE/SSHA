@@ -6,6 +6,8 @@ applyTo: '**/*.rb, **/*.md'
 
 # DDD Tactical Patterns (Ruby)
 
+When implementing domain logic, use these tactical building blocks:
+
 ## Entity
 - **Unique identity, mutable.**
 ```ruby

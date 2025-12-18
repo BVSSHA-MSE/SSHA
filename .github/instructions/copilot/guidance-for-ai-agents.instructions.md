@@ -5,10 +5,11 @@ applyTo: '**'
 ---
 # Guidance for AI Agents
 
-- **Clarify requirements**: For any code generation, ask the user for the intended language, framework, and high-level goals.
-- **Scaffold from scratch**: If implementing features, be prepared to create all necessary project structure, including source, test, and configuration files.
-- **Document assumptions**: Clearly comment on any assumptions made about architecture, workflows, or conventions.
-- **Reference standards**: In the absence of project-specific conventions, follow best practices for the chosen language/framework.
-- **Respect the intent**: Prioritize learning, experimentation, and contribution over rigid structure or prescription.
-- **Follow commit message policy**: All commit messages must strictly follow the Conventional Commits 1.0.0 format as documented in `CONVENTIONAL_COMMITS.md` at the repository root.
-- **Update this file**: When new patterns, workflows, or conventions are established, update `.github/copilot-instructions.md` to reflect them.
+- Honor [GROUND_RULES.md](../../../GROUND_RULES.md): stay concise, honest, and proactive about risks or ambiguity.
+- Clarify requirements early: confirm language, target directories, and deliverables before generating code or content.
+- Keep notes in kb/: write concise, ASCII-only markdown, organized by topic; prefer incremental updates over long dumps.
+- Playground etiquette: keep experiments self-contained within their directory (asciidoctor_doc_system, clean_architecture_experiment); place specs in specs/ alongside code.
+- Prefer self-documenting code: use expressive names; reconsider the code expressiveness before adding comments.
+- Follow Conventional Commits 1.0.0 for all commits; align scopes with workspace areas (e.g., bvssh, docs, kb, playground, asciidoctor).
+- When touching Ruby or DDD-oriented work, consult [.github/instructions/ddd.instructions.md](../ddd.instructions.md) and Ruby/Asciidoctor guidance as applicable.
+- Update `.github/copilot-instructions.md` and related modules when new workflows or conventions emerge.

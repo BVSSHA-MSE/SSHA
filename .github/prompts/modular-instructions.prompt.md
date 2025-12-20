@@ -1,5 +1,5 @@
 ---
-name: Modularize Instruction Set
+name: modularize-instruction-set
 description: Split a monolithic instruction set into multiple modular markdown files.
 tools: ['search', 'edit']
 ---

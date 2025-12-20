@@ -40,3 +40,7 @@ Purpose: ensure every conventional commit references the most relevant active BV
 ## Review & Spot-Checks
 - Spot-check "Outcome: none" usage and correctness of selected outcomes during regular reviews.
 - Iterate heuristics as the BVSSH structure evolves.
+
+## Links
+
+- Use the index.md file for relevant outcomes of the latest year: `bvssh/<YYYY>/index.md`.

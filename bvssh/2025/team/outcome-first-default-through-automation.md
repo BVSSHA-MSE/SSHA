@@ -142,6 +142,7 @@ Jumping directly to tasks and activities without articulating outcomes; commits 
 What did we learn by pursuing this outcome?
 
 - **What surprised us:**
+  The move to automating commit message outcome linking was easier than we thought, but the [system updates](../../../kb/commit-message-outcome-linking-vscode.md) to support it were not expected.
 - **What assumptions held or broke:**
 - **What we would do differently next time:**
 

@@ -1,7 +1,7 @@
 ---
 name: Quality Requirements for .github Markdown Files
 description: This file outlines the quality standards for markdown files located in the .github directory.
-applyTo: .github/**/*.md
+applyTo: '.github/**/*.md'
 ---
 ## Quality Requirements for .github/**/*.md
 

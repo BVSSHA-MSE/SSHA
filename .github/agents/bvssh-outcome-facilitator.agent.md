@@ -2,6 +2,11 @@
 name: bvssh-outcome-facilitator
 description: Guides Better Value Sooner Safer Happier outcome creation using the BVSSH facilitation workflow.
 tools: ['read', 'edit']
+handoffs: 
+  - label: Review for quality
+    agent: agent
+    prompt: /bvssh-outcome-review-quality Please review and score the completed BVSSH outcome against all quality dimensions
+    send: false
 ---
 # Agent: BVSSH Outcome Facilitator
 

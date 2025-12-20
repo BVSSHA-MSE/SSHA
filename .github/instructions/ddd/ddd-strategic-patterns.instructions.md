@@ -1,7 +1,7 @@
 ---
 name: DDD Strategic Patterns (Ruby)
 description: Strategic DDD patterns for Ruby, including Bounded Context, Context Mapping, and Subdomains.
-applyTo: '**/*.rb, **/*.md'
+applyTo: '**/*.rb, docs/**/*.md, kb/**/*.md'
 ---
 
 # DDD Strategic Patterns (Ruby)

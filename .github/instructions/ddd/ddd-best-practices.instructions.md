@@ -1,7 +1,7 @@
 ---
 name: DDD Best Practices (Ruby)
 description: Best practices for implementing DDD in Ruby projects.
-applyTo: '**/*.rb, **/*.md'
+applyTo: '**/*.rb, docs/**/*.md, kb/**/*.md'
 ---
 
 # DDD Best Practices (Ruby)

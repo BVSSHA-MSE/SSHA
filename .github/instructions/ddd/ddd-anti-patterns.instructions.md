@@ -1,7 +1,7 @@
 ---
 name: DDD Anti-Patterns (Ruby)
 description: Common DDD anti-patterns and how to avoid them in Ruby.
-applyTo: '**/*.rb, **/*.md'
+applyTo: '**/*.rb, docs/**/*.md, kb/**/*.md'
 ---
 
 # DDD Anti-Patterns (Ruby)

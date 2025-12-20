@@ -1,7 +1,7 @@
 ---
 name: DDD Layered Architecture (Ruby)
 description: Layered architecture and dependency rules for DDD in Ruby.
-applyTo: '**/*.rb, **/*.md'
+applyTo: '**/*.rb, docs/**/*.md, kb/**/*.md'
 ---
 
 # DDD Layered Architecture (Ruby)

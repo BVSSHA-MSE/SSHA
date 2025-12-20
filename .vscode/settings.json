@@ -6,6 +6,9 @@
     },
     {
       "file": ".github/instructions/copilot/commit-message-policy.instructions.md"
+    },
+    {
+      "file": ".github/instructions/copilot/commit-message-outcome-linking.instructions.md"
     }
   ]
 }

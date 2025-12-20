@@ -11,3 +11,4 @@
 ## Team
 
 - [Outcome-First Becomes Default Through Automation](team/outcome-first-default-through-automation.md)
+- [Outcome Fluency Through Mapping](team/outcome-fluency-through-mapping.md)

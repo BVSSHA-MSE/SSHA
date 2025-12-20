@@ -27,6 +27,7 @@ Zero friction in forming outcomes; contributors gain confidence in articulating 
 
 **Enabled by:**
 - [Team: Outcome-First Becomes Default Through Automation](../team/outcome-first-default-through-automation.md)
+- [Team: Outcome Fluency Through Mapping](../team/outcome-fluency-through-mapping.md)
 
 ## Hypothesis
 We believe that removing adoption friction through Team automation and making BVSSH the default approach to work intake

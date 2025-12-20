@@ -26,6 +26,7 @@ Decision-makers have clarity on strategic intent; reduced cognitive load from al
 **Enabled by:**
 - [Program: Easier to Drive Change with BVSSH Outcomes](../program/easier-to-drive-change-with-bvssh-outcomes.md)
 - [Team: Outcome-First Becomes Default Through Automation](../team/outcome-first-default-through-automation.md)
+- [Team: Outcome Fluency Through Mapping](../team/outcome-fluency-through-mapping.md)
 
 ## Hypothesis
 We believe that requiring outcome-first framing in all portfolio proposals and governing through a BVSSH lens (enabled by Program adoption ease and Team automation),

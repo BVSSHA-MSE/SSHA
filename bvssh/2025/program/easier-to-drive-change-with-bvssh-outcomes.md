@@ -1,7 +1,7 @@
 # Easier to Drive Change with BVSSH Outcomes
 
 ## Context
-BVSSH outcome-driven change is hard when new. Making it the default now saves us from ongoing resistance from old habits. We are also error prone as humans.
+BVSSH outcome-driven change is hard when new. Making it the default now saves us from ongoing challenges from old habits. We are also error prone as humans.
 
 **Enables Portfolio outcome:** [SSH Advocacy Embedded Portfolio-Wide](../portfolio/ssh-advocacy-embedded-portfolio-wide.md) by reducing friction in practicing BVSSH across all work.
 
@@ -20,7 +20,7 @@ Median outcome formation time ≤5 minutes; self-service success without interve
 Adoption barriers removed; practice consistently applied without relying on individual memory or discipline.
 
 ### Happier
-Zero friction in forming outcomes; contributors gain confidence in articulating outcomes; clear path from idea to aligned work without cognitive overhead.
+Near-Zero friction in forming outcomes; contributors gain confidence in articulating outcomes; clear path from idea to aligned work without cognitive overhead.
 
 **Primary dimensions:** Sooner (formation speed), Happier (friction removal)
 **Supporting:** Better (habit formation), Value (meaningful outcomes), Safer (consistent practice)
@@ -31,7 +31,7 @@ Zero friction in forming outcomes; contributors gain confidence in articulating 
 
 ## Hypothesis
 We believe that removing adoption friction through Team automation and making BVSSH the default approach to work intake
-Will result in ≥90% self-service success, median formation time ≤5 minutes, and contributors naturally using BVSSH language—enabling Portfolio governance to enforce outcome-first without resistance.
+Will result in ≥90% self-service success, median formation time ≤5 minutes, and contributors naturally using BVSSH language—enabling outcome-first Portfolios.
 We believe this because when automation removes cognitive overhead and prompts outcome-first thinking at work intake, practice becomes habitual rather than effortful, accelerating internalization and enabling portfolio-wide adoption.
 
 ### Risks & Assumptions

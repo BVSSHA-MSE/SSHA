@@ -18,7 +18,7 @@ If we integrate a 12-minute outcome mapping scaffold (with a simple quality rubr
 ## Expected Behavioral Change
 - Before: We draft activity lists or jump to solutions; outcomes lack clear constraints and signals.
 - After: We start with mapping scaffold; proposals begin with a constraint-aligned target outcome including ≥3 BVSSH signals and observable behaviors.
-- Stops/Starts: Stop solution-first proposals; start constraint-first mapping (≤12 minutes) before facilitation.
+- Stops/Starts: Stop solution-first proposals; start outcome mapping (≤12 minutes) before facilitation.
 
 ## Signals & Measures
 - Leading (1–3):

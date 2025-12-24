@@ -10,8 +10,8 @@
 - "We say outcomes, do activities" contradiction undermines credibility with external audiences and SSHA community.
 
 **Why this matters now:**
-- Ending 2025 and starting 2026 with outcome-first as the default enables Portfolio/Program outcomes and unlocks 2026 content commitments (6+ substantial pieces).
-- Making this the default now saves us from ongoing resistance and builds muscle memory for the long term.
+- Ending 2025 and starting 2026 with outcome-first as the default enables Portfolio/Program outcomes and unlocks 2026 content needs (6+ substantial pieces).
+- Making this the default now saves us from ongoing challenges and builds muscle memory for the long term.
 
 **Enables:**
 - [Portfolio: SSH Advocacy Embedded Portfolio-Wide](../portfolio/ssh-advocacy-embedded-portfolio-wide.md) by reducing friction in practicing BVSSH across all work.
@@ -55,7 +55,7 @@ Building automation to discover active outcomes, scaffold conventional commits, 
 Technical capability that enables Program adoption: 90% of commits reference active outcomes, median formation time ≤5 minutes, quality rubric scores ≥4.0—removing friction and enabling portfolio-wide practice.
 
 **Because**  
-Automation eliminates cognitive load at the point of contribution (commit, formation, review), prompts outcome-first thinking without depending solely on memory or discipline, and provides immediate quality feedback—making the Program's adoption goals achievable and enabling Portfolio governance without resistance.
+Automation eliminates cognitive load at the point of contribution (commit, formation, review), prompts outcome-first thinking without depending solely on memory or discipline, and provides immediate quality feedback—making the Program's adoption goals achievable and enabling an outcome-first Portfolio.
 
 ### Risks & Assumptions
 
@@ -65,7 +65,7 @@ Automation eliminates cognitive load at the point of contribution (commit, forma
 - **Risk:** We may not understand BVSSH as well as we think; rubric scoring may not reliably measure quality.
 - **Risk:** Workflow fragility—if automation breaks, recovery may be difficult or time-consuming.
 - **Mitigation:**
-  - Quality review automation catches shallow outcomes; human validation required.
+  - Quality review automation catches shallow outcomes; human validation still required.
   - Document fallback paths (local scripts, manual templates) before automation is critical.
   - Timebox automation work (e.g., 2 hours/week) to avoid burnout from competing life priorities.
   - Test rubric on 3 existing outcomes before scaling.
@@ -112,8 +112,8 @@ Jumping directly to tasks and activities without articulating outcomes; commits 
 
 ## Constraints & Guardrails
 
-- **Automation over manual:** Prioritize automation that drives review and quality analysis over manual activity; defer non-essential automation (dashboards, retro summaries).
-- **Focus trade-off:** Accept slower expansion of other capabilities to focus on outcome-first automation for ending 2025 well and enabling 2026 commitments.
+- **Automation over manual:** Prioritize automation that drives review and quality analysis over manual activity; defer non-essential automation (dashboards, retro summaries, etc).
+- **Focus trade-off:** Accept slower expansion of other capabilities to focus on outcome-first automation for ending 2025 well and enabling 2026 outcomes.
 - **Human validation required:** Automation guides and checks, but humans validate reasoning and genuine outcome alignment to avoid "template filling."
 - **Out of scope for 2025:** Building Asciidoctor documentation; comprehensive dashboards or retrospective summaries; CI/CD integration (GitHub Copilot Workflows primary focus).
 
@@ -144,6 +144,12 @@ What did we learn by pursuing this outcome?
 - **What surprised us:**
   The move to automating commit message outcome linking was easier than we thought, but the [system updates](../../../kb/commit-message-outcome-linking-vscode.md) to support it were not expected.
 - **What assumptions held or broke:**
+  The assumption that friction was the primary barrier held; adoption rates increased significantly once automation was in place.
 - **What we would do differently next time:**
+  We would spend more time ensuring that the commit message outcome linking took into account relevant edge cases including but not limited to:
+  - Unknown outcomes
+  - Multiple outcomes
+  - Hallucination of outcomes
+  - Not elaborating on how the commit message advances the outcome/s
 
 > To be completed after outcome is achieved or retired.

@@ -21,4 +21,7 @@ This is EXTREMELY IMPORTANT:
 - Always make `/kb` markdown files more concise and clear than your normal responses.
 - Regularly organize `/kb` directory with meaningful subdirectories following the flatten components pattern treating the markdown file as a pure domain layer.
 - Always consider the long-term (months to years) maintenance of your work.
-- *Never* use the word "resistance". Use alternatives such as "obstacle", "challenge", "impediment" or "concern" instead.
+
+*Never* use these words:
+- resistance: prefer obstacle, challenge, impediment, or concern
+- enforce: prefer guide, support, enable, or facilitate

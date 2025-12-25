@@ -1,6 +1,7 @@
-# 2026 Portfolio Outcome — Compounding Advocacy via Themes
+# [Coherence] - Compounding Advocacy via Themes
 **Year:** 2026  
 **Level:** Portfolio  
+**Theme:** Coherence  
 **Status:** Finalized (Nine-Step BVSSH Outcome)
 
 ---
@@ -9,8 +10,9 @@
 - **Year:** 2026
 - **Level:** Portfolio
 
-## 2) Outcome Name (3–7 words)
-- **Compounding Advocacy via Themes**
+## 2) Outcome Name & Theme
+- **Theme:** Coherence
+- **Outcome Name (3–7 words):** Compounding Advocacy via Themes
 
 ## 3) Context & Tension
 - **Current state:** Sustainable, outcome-led advocacy practice was established in 2025; artifacts exist but navigation is challenging; synthesis often happens late.

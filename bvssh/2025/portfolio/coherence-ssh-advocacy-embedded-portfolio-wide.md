@@ -1,4 +1,8 @@
-# SSH Advocacy Embedded Portfolio-Wide
+# [Coherence] - SSH Advocacy Embedded Portfolio-Wide
+
+**Year:** 2025  
+**Level:** Portfolio  
+**Theme:** Coherence
 
 ## Context
 Currently, we are not performing from outcomes but from activity, which prevents us from practicing what we are advocating and compromises our integrity.

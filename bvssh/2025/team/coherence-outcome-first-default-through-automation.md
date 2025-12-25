@@ -2,7 +2,8 @@
 
 **Year:** 2025  
 **Level:** Team  
-**Theme:** Coherence
+**Theme:** Coherence  
+**Status:** Active (measuring signals; outcome-linking adoption ramping)
 
 ## Context & Tension
 
@@ -111,6 +112,31 @@ Jumping directly to tasks and activities without articulating outcomes; commits 
 - Strategy pivots due to misalignment (trend: decrease)
 
 **Alignment:** These leading indicators directly enable Portfolio outcome by accelerating adoption; lagging indicators validate internalization, not just compliance.
+
+---
+
+### Signals & Measures — Results (Dec 11–25, 2025 sample)
+- Commits sampled: 66 (last two weeks)
+- Outcome‑linked commits: 26 (~39% coverage)
+- Commits with `Outcome: none`: 1
+- Median outcome formation time: ❗ Not yet measured (requires instrumented capture or author timestamp sampling)
+- Outcome rubric average (1–5): 4.5–5 (based on recent scoring)
+- Coverage context: Outcome linking began only a few days ago; expect upward trend as automation propagates
+
+### Evidence
+- Source: `git log --since=2.weeks` sampled in repository `z:/Business/BVSSH/SSHA` on 2025‑12‑25
+- Companion config: see [kb/commit-message-outcome-linking-vscode.md](../../../kb/commit-message-outcome-linking-vscode.md)
+- Next measurement: instrument formation time capture in commit workflow; score 10 recent outcomes with rubric to produce an average
+
+---
+
+## Measurement Plan (Minimal)
+- **Cadence:** Weekly coverage sampling; monthly rubric scoring pass.
+- **Coverage:** Compute % of commits with outcome footers; track `Outcome: none` count; annotate recent adoption (linking began days ago).
+- **Formation time:** Capture minutes at commit generation step for 10 samples/week; report median; keep method lightweight.
+- **Rubric:** Score 10 recent outcomes/month; record average and range; keep notes concise.
+- **Logging:** Summarize metrics in KB review notes; link from this outcome under Evidence when available.
+- **Targets (for Achieved decision):** Coverage ≥90%; median formation ≤5 minutes; rubric average ≥4.0.
 
 ---
 

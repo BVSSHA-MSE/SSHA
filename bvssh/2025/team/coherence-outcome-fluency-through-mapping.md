@@ -1,4 +1,8 @@
-# Outcome Fluency Through Mapping
+# [Coherence] - Outcome Fluency Through Mapping
+
+**Year:** 2025  
+**Level:** Team  
+**Theme:** Coherence
 
 ## Context & Tension
 - BVSSH automation is strong, but discovery is manual and cognitively heavy, yielding shallow or solution-first outcomes.

@@ -1,4 +1,8 @@
-# Outcome-First Becomes Default Through Automation
+# [Coherence] - Outcome-First Becomes Default Through Automation
+
+**Year:** 2025  
+**Level:** Team  
+**Theme:** Coherence
 
 ## Context & Tension
 

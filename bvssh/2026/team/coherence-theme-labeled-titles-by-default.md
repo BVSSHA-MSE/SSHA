@@ -1,6 +1,7 @@
-# 2026 Team Outcome — Theme-Labeled Titles by Default
+# [Coherence] - Theme-Labeled Titles by Default
 **Year:** 2026  
 **Level:** Team  
+**Theme:** Coherence  
 **Status:** Active (Weeks 1–2, Jan 1–14, 2026)
 
 ---
@@ -9,8 +10,9 @@
 - **Year:** 2026
 - **Level:** Team
 
-## 2) Outcome Name (3–7 words)
-- **Theme-Labeled Titles by Default**
+## 2) Outcome Name & Theme
+- **Theme:** Coherence
+- **Outcome Name (3–7 words):** Theme-Labeled Titles by Default
 
 ## 3) Context & Tension
 - **Current state:** Artifact naming pattern `[Theme] - [Title]` is defined (Portfolio outcome) but not operationalized; no mechanism ensures consistent application at creation.

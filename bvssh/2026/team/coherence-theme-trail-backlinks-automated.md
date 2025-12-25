@@ -1,6 +1,7 @@
-# 2026 Team Outcome — Theme Trail Backlinks Automated
+# [Coherence] - Theme Trail Backlinks Automated
 **Year:** 2026  
 **Level:** Team  
+**Theme:** Coherence  
 **Status:** Planned (Weeks 3–4, Jan 15–28, 2026; activates on Outcome 1 ≥95%)  
 **Prerequisite:** [Theme-Labeled Titles by Default](bvssh/2026/team/theme-labeled-titles-by-default.md) must reach ≥95% coverage before this outcome begins.
 
@@ -10,8 +11,9 @@
 - **Year:** 2026
 - **Level:** Team
 
-## 2) Outcome Name (3–7 words)
-- **Theme Trail Backlinks Automated**
+## 2) Outcome Name & Theme
+- **Theme:** Coherence
+- **Outcome Name (3–7 words):** Theme Trail Backlinks Automated
 
 ## 3) Context & Tension
 - **Current state:** Theme artifacts are growing; theme trail pages (e.g., `kb/themes/coherence/index.md`) are manually updated with backlinks to new artifacts.

@@ -1,6 +1,7 @@
-# 2026 Program Outcome — Quarterly Theme Synthesis Published
+# [Coherence] - Quarterly Theme Synthesis Published
 **Year:** 2026  
 **Level:** Program  
+**Theme:** Coherence  
 **Status:** Active (Operationalized by Team outcomes Weeks 1–4; first synthesis due March 31, Q1 end)
 
 ---
@@ -9,8 +10,9 @@
 - **Year:** 2026
 - **Level:** Program
 
-## 2) Outcome Name (3–7 words)
-- **Quarterly Theme Synthesis Published**
+## 2) Outcome Name & Theme
+- **Theme:** Coherence
+- **Outcome Name (3–7 words):** Quarterly Theme Synthesis Published
 
 ## 3) Context & Tension
 - **Current state:** Theme-linked artifacts are growing; orientation relies on individual trails and memory; synthesis is ad hoc.

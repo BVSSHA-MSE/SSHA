@@ -246,3 +246,7 @@ Provide:
 ```
 /bvssh-outcome-review-quality analyze coherence between Portfolio, Program, and Team outcomes for 2025
 ```
+
+## References
+
+- kb/outcome-mapping/rubrics/coherence-outcome-quality-rubric.md - outcome quality rubric

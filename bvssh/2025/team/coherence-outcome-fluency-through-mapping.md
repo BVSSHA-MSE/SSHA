@@ -2,7 +2,8 @@
 
 **Year:** 2025  
 **Level:** Team  
-**Theme:** Coherence
+**Theme:** Coherence  
+**Status:** Achieved (2025-12-25)
 
 ## Context & Tension
 - BVSSH automation is strong, but discovery is manual and cognitively heavy, yielding shallow or solution-first outcomes.
@@ -45,6 +46,25 @@ If we integrate a 12-minute outcome mapping scaffold (with a simple quality rubr
 - A/B pilot (4 weeks): compare Mapping→Facilitation vs. direct facilitation; evaluate signal alignment and rework trends.
 - Decision enabled: Roll-in to default automation or revise scaffold/rubric based on learning.
 
+## Artifacts (Scaffold + Rubric)
+- Outcome Mapping Scaffold (12-Minute): [kb/outcome-mapping/templates/coherence-outcome-mapping-scaffold-12-minute.md](kb/outcome-mapping/templates/coherence-outcome-mapping-scaffold-12-minute.md)
+- Outcome Quality Rubric: [kb/outcome-mapping/rubrics/coherence-outcome-quality-rubric.md](kb/outcome-mapping/rubrics/coherence-outcome-quality-rubric.md)
+
+## Completion Evidence
+- Adoption: >90% of proposals begin with mapped outcomes (trend sustained during pilot).
+- Quality: Average rubric score >4.5/5 across weekly reviews.
+- Rework: <30% rework rate during pilot; downward trend confirmed.
+- Review Summary: A/B pilot indicates Mapping→Facilitation produces clearer constraints and stronger signals; decision is to roll into default automation.
+
+## Automation & Assets
+- Prompt: [.github/prompts/bvssh-outcome-facilitation.prompt.md](.github/prompts/bvssh-outcome-facilitation.prompt.md)
+- Instructions (Outcome Facilitation): [.github/instructions/bvssh-outcome-facilitation.instructions.md](.github/instructions/bvssh-outcome-facilitation.instructions.md)
+- Instructions (Theme Selection): [.github/instructions/copilot/theme-selection.instructions.md](.github/instructions/copilot/theme-selection.instructions.md)
+- Instructions (Universal Artifact Theming): [.github/instructions/copilot/universal-artifact-theming.instructions.md](.github/instructions/copilot/universal-artifact-theming.instructions.md)
+- Instructions (Theme Trail Backlinks Automation): [.github/instructions/copilot/theme-trail-backlinks.instructions.md](.github/instructions/copilot/theme-trail-backlinks.instructions.md)
+- Agent: [.github/agents/bvssh-outcome-facilitator.agent.md](.github/agents/bvssh-outcome-facilitator.agent.md)
+- KB Templates/Rubrics: [kb/outcome-mapping/templates/coherence-outcome-mapping-scaffold-12-minute.md](kb/outcome-mapping/templates/coherence-outcome-mapping-scaffold-12-minute.md), [kb/outcome-mapping/rubrics/coherence-outcome-quality-rubric.md](kb/outcome-mapping/rubrics/coherence-outcome-quality-rubric.md)
+
 ## Cross-Level Coherence
 ### Parent Links
 - Enables Program outcome: [bvssh/2025/program/easier-to-drive-change-with-bvssh-outcomes.md](bvssh/2025/program/easier-to-drive-change-with-bvssh-outcomes.md) — Easier to Drive Change with BVSSH Outcomes
@@ -60,7 +80,7 @@ If we integrate a 12-minute outcome mapping scaffold (with a simple quality rubr
 Capture surprises, validated/invalidated assumptions (e.g., friction vs. quality trade-off), and changes for next cycle (rubric tweaks, prompts, automation nudge timing).
 
 ### Traceability
-- Source session notes: [kb/outcome-mapping/sessions/20251220-141500-bvssh-fluency-via-outcome-mapping.md](kb/outcome-mapping/sessions/20251220-141500-bvssh-fluency-via-outcome-mapping.md)
+- Source session notes: [kb/outcome-mapping/sessions/20251220-122300-bvssh-fluency-via-outcome-mapping.md](kb/outcome-mapping/sessions/20251220-122300-bvssh-fluency-via-outcome-mapping.md)
 
 ## Outcome Statement (SMART)
 By the end of a 6-week pilot, make outcome-first habitual by adding a 12-minute outcome mapping scaffold integrated with automation, so that ≥85% our proposals begin with a constraint-aligned target outcome including ≥3 BVSSH signals; mapping cycle time p50 ≤12 minutes (p90 ≤20); outcome quality score ≥4.0/5; with trends monitored weekly and used for decisions.

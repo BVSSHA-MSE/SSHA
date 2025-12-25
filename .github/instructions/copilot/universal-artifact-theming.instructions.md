@@ -344,8 +344,8 @@ Entry in `kb/outcome-mapping/sessions/theme-exceptions-2026-01.md`:
 - **Decision Tree:** [Theme Selection Guidance](theme-selection.instructions.md)
 - **Template:** `kb/themes/coherence/artifact-template.md`
 - **Exception Log:** `kb/outcome-mapping/sessions/theme-exceptions-2026-01.md`
-- **Outcome Facilitation:** [BVSSH Outcome Facilitation Prompt](.github/prompts/bvssh-outcome-facilitation.prompt.md)
-- **GROUND_RULES:** [GROUND_RULES.md](../../GROUND_RULES.md) — Stay concise; no comments; self-documenting code
+- **Outcome Facilitation:** [BVSSH Outcome Facilitation Prompt](../../prompts/bvssh-outcome-facilitation.prompt.md)
+- **GROUND_RULES:** [GROUND_RULES.md](../../../GROUND_RULES.md) — Stay concise; no comments; self-documenting code
 
 ---
 

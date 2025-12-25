@@ -186,9 +186,9 @@ Purpose: Help practitioners evaluate whether an outcome or artifact belongs to a
 
 ## Links & References
 
-- [Coherence Theme Trail](kb/themes/coherence/index.md) — Curated artifacts for this theme
-- [Theme Exceptions Log](kb/outcome-mapping/sessions/theme-exceptions-2026-01.md) — Running log of exceptions
-- [BVSSH Outcome Facilitation Prompt](.github/prompts/bvssh-outcome-facilitation.prompt.md) — Step 0 theme assignment
-- [Artifact Template](kb/themes/coherence/artifact-template.md) — Pre-filled template for new artifacts
+- [Coherence Theme Trail](../../../kb/themes/coherence/index.md) — Curated artifacts for this theme
+- [Theme Exceptions Log](../../../kb/outcome-mapping/sessions/theme-exceptions-2026-01.md) — Running log of exceptions
+- [BVSSH Outcome Facilitation Prompt](../../../.github/prompts/bvssh-outcome-facilitation.prompt.md) — Step 0 theme assignment
+- [Artifact Template](../../../kb/themes/coherence/artifact-template.md) — Pre-filled template for new artifacts
 
 ---

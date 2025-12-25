@@ -9,8 +9,17 @@ argument-hint: Provide year and level if known.
 
 Use this prompt with the BVSSH Outcome Facilitator agent to guide a user through the nine-step workflow. Keep questions succinct and flag issues with ❗️ (challenge), ⚠️ (simplify), 🔄 (iterate).
 
-1) Confirm year (current/upcoming, 4 digits) and level (Team/Program/Portfolio).
+## Step 0 — Year, Level & Theme
+1) Confirm year (current/upcoming, 4 digits), level (Team/Program/Portfolio), and active theme.
+   - **Theme:** Select from active themes (current: Coherence; future themes TBD).
+   - Reject misaligned scopes or themes not yet active.
+
+## Steps 1–10 — Outcome Nine-Step Workflow
+
 2) Ask for a 3–7 word outcome-focused name (avoid activity verbs like implement/build/create).
+   - **Format:** `[Theme] - [Outcome Name]`
+   - **Example:** `[Coherence] - Theme-Labeled Titles by Default`
+   - **Rules:** Theme in brackets; outcome after hyphen; 3–7 words total; imperative or gerund preferred (e.g., "by Default", "Automated").
 3) Capture context & tension: current state, observable pain/risk/opportunity, and why now.
 4) Explore Desired Outcome (BVSSH): Better, Value, Sooner, Safer, Happier (at least three with concrete end states).
 5) Form the Outcome Hypothesis: smallest credible change → expected BVSSH effect → because/rationale.
@@ -20,4 +29,4 @@ Use this prompt with the BVSSH Outcome Facilitator agent to guide a user through
 9) Review & Learning Cadence: frequency, participants, decision enabled.
 10) Reflection (post-outcome when applicable): surprises, validated/invalidated assumptions, what to change next time.
 
-Close by proposing slug + path `bvssh/YYYY/<level>/<outcome-slug>.md`, confirm saving, and ask what to refine.
+Close by proposing slug + path `bvssh/YYYY/<level>/<theme>-<outcome-slug>.md` (slug derived from outcome name, theme prefix included), confirm saving, and ask what to refine.

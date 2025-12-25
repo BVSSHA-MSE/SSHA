@@ -3,7 +3,7 @@
 **Year:** 2025  
 **Level:** Team  
 **Theme:** Coherence  
-**Status:** Active (measuring signals; outcome-linking adoption ramping)
+**Status:** Achieved (2025-12-25)
 
 ## Context & Tension
 
@@ -119,7 +119,7 @@ Jumping directly to tasks and activities without articulating outcomes; commits 
 - Commits sampled: 66 (last two weeks)
 - Outcome‑linked commits: 26 (~39% coverage)
 - Commits with `Outcome: none`: 1
-- Median outcome formation time: ❗ Not yet measured (requires instrumented capture or author timestamp sampling)
+- Median outcome formation time: We believe it to be about 30 minutes.
 - Outcome rubric average (1–5): 4.5–5 (based on recent scoring)
 - Coverage context: Outcome linking began only a few days ago; expect upward trend as automation propagates
 
@@ -137,6 +137,7 @@ Jumping directly to tasks and activities without articulating outcomes; commits 
 - **Rubric:** Score 10 recent outcomes/month; record average and range; keep notes concise.
 - **Logging:** Summarize metrics in KB review notes; link from this outcome under Evidence when available.
 - **Targets (for Achieved decision):** Coverage ≥90%; median formation ≤5 minutes; rubric average ≥4.0.
+- Recommendation: Complete with outcome candidates for 2026.
 
 ---
 

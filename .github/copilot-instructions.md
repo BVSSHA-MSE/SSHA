@@ -19,6 +19,7 @@ Anchor responses in [GROUND_RULES.md](../GROUND_RULES.md); stay concise and hone
 - [Guidance for AI Agents](instructions/copilot/guidance-for-ai-agents.instructions.md)
 - [Theme Selection Guidance](instructions/copilot/theme-selection.instructions.md)
 - [Universal Artifact Theming](instructions/copilot/universal-artifact-theming.instructions.md)
+- [Theme Trail Backlinks Automation](instructions/copilot/theme-trail-backlinks.instructions.md)
 - [Commit Message Policy](instructions/copilot/commit-message-policy.instructions.md)
 - [License](instructions/copilot/license.instructions.md)
 - [Ruby Specs Directory Convention](instructions/copilot/rubyspecs-folder.instructions.md)

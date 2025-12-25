@@ -2,7 +2,7 @@
 **Year:** 2026  
 **Level:** Team  
 **Theme:** Coherence  
-**Status:** Planned (Weeks 3–4, Jan 15–28, 2026; activates on Outcome 1 ≥95%)  
+**Status:** Active (measuring signals; depends on Outcome 1 ≥95% coverage maintained)  
 **Prerequisite:** [Theme-Labeled Titles by Default](bvssh/2026/team/theme-labeled-titles-by-default.md) must reach ≥95% coverage before this outcome begins.
 
 ---

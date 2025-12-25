@@ -2,7 +2,7 @@
 **Year:** 2026  
 **Level:** Team  
 **Theme:** Coherence  
-**Status:** Active (Weeks 1–2, Jan 1–14, 2026)
+**Status:** Ongoing (automation in place; measuring signals)
 
 ---
 

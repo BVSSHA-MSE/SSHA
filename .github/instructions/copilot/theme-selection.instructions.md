@@ -60,6 +60,36 @@ Purpose: Help practitioners evaluate whether an outcome or artifact belongs to a
 - ❌ "Slack Channel Best Practices" (operational, no outcome intent)
 - ❌ "How to Use Asciidoctor for Documentation" (tool-specific without outcome context)
 
+### Reach
+**Intent:** External engagement, audience development, and distribution mechanisms that get SSH ideas to practitioners seeking sustainable work alternatives.
+
+**Scope & Core Concepts:**
+- **What belongs:** Artifacts that help readers/practitioners understand or apply:
+  - SSH advocacy production and distribution to external audiences
+  - Engagement measurement (comments, shares, citations, questions)
+  - Discovery mechanisms (pain naming, vocabulary development, channel selection)
+  - Resonance testing (which BVSSH dimensions drive engagement)
+  - Audience growth and viral spread patterns
+  - External practitioner reach strategies
+
+- **What doesn't belong:** 
+  - Internal advocacy structure (belongs to Coherence)
+  - Operational content production without engagement context
+  - Generic marketing guidance without SSH/BVSSH framing
+  - Platform-specific tactics without outcome measurement
+
+**Examples of Reach Artifacts:**
+- ✅ "[Reach] - Leaders Engage with SSH Advocacy" (Portfolio outcome; engagement measurement)
+- ✅ "[Reach] - SSH Advocacy Reaches Burnt-Out Practitioners" (Program outcome; distribution coordination)
+- ✅ "[Reach] - Happier-Focused Advocacy Resonates with Leaders" (Team outcome; topic cluster production)
+- ✅ Playbook: "How to Test Pain Hooks with Small Audiences" (resonance validation workflow)
+- ✅ Case study: "What Made Leaders Engage: Learning from Q1 2026" (engagement pattern analysis)
+
+**Non-Examples:**
+- ❌ "LinkedIn Algorithm Optimization Guide" (platform-specific, no SSH/outcome context)
+- ❌ "Internal Team Communication Playbook" (internal, not external reach)
+- ❌ "Content Production Velocity Dashboard" (operational metric without engagement outcome)
+
 ---
 
 ## How to Validate Theme Assignment
@@ -115,24 +145,41 @@ Purpose: Help practitioners evaluate whether an outcome or artifact belongs to a
 
 ---
 
-## Examples of Theme Clarity (Coherence)
+## Examples of Theme Clarity
 
-### Clear Fits
+### Coherence: Clear Fits
 - "Outcome-First Becomes Default Through Automation" — Directly about outcome design practice/automation
 - "Quarterly Theme Synthesis Published" — Directly about trail coherence and reuse
 - "Theme-Labeled Titles by Default" — Directly about coherence mechanism (theming enables reuse)
 - "How to Map BVSSH Outcomes: A Facilitation Workflow" — Teaches outcome design thinking
 
-### Ambiguous (Investigate)
+### Coherence: Ambiguous (Investigate)
 - "Better Value Sooner Safer Happier Glossary" — Define terms? Outcome design context? If purely reference, may be borderline
   - **Resolution:** Frame as "Glossary for Outcome-First Thinking" or move to generic reference materials
 - "Case Study: Healthcare System SSH Implementation" — Is it illustrating outcome design or domain-specific content?
   - **Resolution:** If showing how to apply SSH coherence in healthcare, Coherence fits; if domain-specific, log exception
 
-### Clear Non-Fits
+### Coherence: Clear Non-Fits
 - "Git Workflow for Documentation Teams" — Operational; no SSH intent
 - "Annual Budget Planning Process" — Administrative; no outcome context
 - "Marketing Campaign for SSH 2026" — Domain-specific advocacy; no design principle illustrated
+
+### Reach: Clear Fits
+- "Leaders Engage with SSH Advocacy" — Directly about external engagement and resonance measurement
+- "SSH Advocacy Reaches Burnt-Out Practitioners" — Directly about distribution and discovery
+- "Testing Pain Hooks with Small Audiences" — Resonance validation before full production
+- "What Made Leaders Engage: Q1 2026 Analysis" — Learning from engagement patterns
+
+### Reach: Ambiguous (Investigate)
+- "Content Production Checklist for Advocates" — Is it about production (Team/Reach) or quality (Coherence)?
+  - **Resolution:** If focused on engagement-driven production, Reach fits; if about outcome design quality, Coherence
+- "LinkedIn Best Practices for SSH Advocates" — Platform-specific tactics or engagement strategy?
+  - **Resolution:** If tied to engagement measurement and SSH outcomes, Reach fits; if generic platform tips, not themed
+
+### Reach: Clear Non-Fits
+- "SEO Optimization for Blog Posts" — Technical tactic without SSH/engagement context
+- "Social Media Scheduling Automation" — Operational tool without outcome measurement
+- "Internal Advocacy Coordination Meeting Notes" — Internal process, not external reach
 
 ---
 
@@ -172,9 +219,9 @@ Purpose: Help practitioners evaluate whether an outcome or artifact belongs to a
 
 **Before assigning theme, verify:**
 - [ ] Outcome/artifact is outcome-focused (not activity-focused)?
-- [ ] Clear connection to SSH coherence, outcome design, or compounding?
-- [ ] Would beneficiary naturally describe this as "helping with outcome thinking"?
-- [ ] BVSSH signals/behaviors map to coherence intent?
+- [ ] Clear connection to theme intent? (Coherence: outcome design/compounding; Reach: external engagement/distribution)
+- [ ] Would beneficiary naturally describe this as fitting the theme?
+- [ ] BVSSH signals/behaviors map to theme intent?
 - [ ] Title/description is clear without apology or asterisks?
 
 **If any "No":**
@@ -186,9 +233,11 @@ Purpose: Help practitioners evaluate whether an outcome or artifact belongs to a
 
 ## Links & References
 
-- [Coherence Theme Trail](../../../kb/themes/coherence/index.md) — Curated artifacts for this theme
+- [Coherence Theme Trail](../../../kb/themes/coherence/index.md) — Curated artifacts for Coherence theme
+- [Reach Theme Trail](../../../kb/themes/reach/index.md) — Curated artifacts for Reach theme
 - [Theme Exceptions Log](../../../kb/outcome-mapping/sessions/theme-exceptions-2026-01.md) — Running log of exceptions
 - [BVSSH Outcome Facilitation Prompt](../../../.github/prompts/bvssh-outcome-facilitation.prompt.md) — Step 0 theme assignment
-- [Artifact Template](../../../kb/themes/coherence/artifact-template.md) — Pre-filled template for new artifacts
+- [Coherence Artifact Template](../../../kb/themes/coherence/artifact-template.md) — Pre-filled template for Coherence artifacts
+- [Reach Artifact Template](../../../kb/themes/reach/artifact-template.md) — Pre-filled template for Reach artifacts
 
 ---

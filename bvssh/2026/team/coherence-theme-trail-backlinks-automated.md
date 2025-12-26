@@ -3,7 +3,7 @@
 **Level:** Team  
 **Theme:** Coherence  
 **Status:** Active (measuring signals; depends on Outcome 1 ≥95% coverage maintained)  
-**Prerequisite:** [Theme-Labeled Titles by Default](bvssh/2026/team/theme-labeled-titles-by-default.md) must reach ≥95% coverage before this outcome begins.
+**Prerequisite:** [Theme-Labeled Titles by Default](bvssh/2026/team/coherence-theme-labeled-titles-by-default.md) must reach ≥95% coverage before this outcome begins.
 
 ---
 

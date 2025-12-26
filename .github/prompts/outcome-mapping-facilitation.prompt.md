@@ -9,8 +9,8 @@ argument-hint: Provide year and level if known.
 
 Guide a user through the five-step outcome mapping workflow. Keep questions succinct; flag issues with ❗️ (challenge), ⚠️ (simplify), 🔄 (iterate).
 
-## Step 0 — Year & Level
-Confirm 4-digit year (current/upcoming, e.g., 2025) and level (Team|Program|Portfolio). Reject misaligned scopes.
+## Step 0 — Year & Level & Theme
+Confirm 4-digit year (current/upcoming, e.g., 2025) and level (Team|Program|Portfolio) and Theme. Reject misaligned scopes.
 
 ## Step 1 — Outcome Discovery
 Facilitate 5-dimension capture → thematic grouping → theme selection → candidate outcomes.

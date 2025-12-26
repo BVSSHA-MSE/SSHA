@@ -1,4 +1,8 @@
-# Outcome: <Short, Meaningful Outcome Name>
+# [Theme] - <Short, Meaningful Outcome Name>
+
+**Year:** [YYYY]
+**Theme:** [Theme]
+**Status:** [Draft|Active|Achieved]
 
 ## 1. Context & Tension
 What is happening today that makes this outcome necessary?

@@ -6,7 +6,7 @@ applyTo: 'bvssh/**/*.md, kb/outcome-mapping/**/*.md, .github/workflows/**/*.md'
 # BVSSH Completion
 
 ## Delegation & Precedence
-- Primary workflow: defer to [\.github/instructions/bvssh-outcome-facilitation.instructions.md](../bvssh-outcome-facilitation.instructions.md).
+- Primary workflow: defer to [\.github/instructions/bvssh-outcome-facilitation.instructions.md](../bvssh/bvssh-outcome-facilitation.instructions.md).
 - Prompt: use [\.github/prompts/bvssh-outcome-facilitation.prompt.md](../../prompts/bvssh-outcome-facilitation.prompt.md) to run facilitation.
 - Agent persona: operate as [\.github/agents/bvssh-outcome-facilitator.agent.md](../../agents/bvssh-outcome-facilitator.agent.md).
 - Scope: this file is the BVSSH section-level checklist; content generation and stakeholder flow are governed by the facilitation workflow.

@@ -5,8 +5,8 @@ applyTo: 'bvssh/**/*.md, kb/outcome-mapping/**/*.md, .github/workflows/**/*.md'
 ---
 # Outcome Mapping Workflow
 
-## Step 0 — Year & Level
-Confirm 4-digit year (current/upcoming) and Team|Program|Portfolio. Reject misaligned scope.
+## Step 0 — Year & Level & Theme
+Confirm 4-digit year (current/upcoming) and Team|Program|Portfolio and Theme. Reject misaligned scope.
 
 ## Outcome Mapping Steps 1–5
 1. Discovery: Clarify the single target outcome; reject solution-first framing.

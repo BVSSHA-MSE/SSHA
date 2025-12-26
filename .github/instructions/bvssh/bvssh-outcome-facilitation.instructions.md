@@ -15,7 +15,7 @@ Purpose: prescribe the BVSSH outcome creation workflow for any session touching 
 - Treat outcomes as hypotheses; iterate as understanding grows.
 
 ## Workflow (apply in order)
-- **Step 0 — Year & Level:** Capture year (current/upcoming, 4 digits) and level (Team, Program, Portfolio). Reject misaligned scope.
+- **Step 0 — Year & Level & Theme:** Capture year (current/upcoming, 4 digits) and level (Team, Program, Portfolio) and Theme. Reject misaligned scope.
 - **Step 1 — Outcome Name:** Require a 3–7 word outcome-focused name; avoid activity phrasing ("implement/build/create").
 - **Step 2 — Context & Tension:** Gather current state, observable pain/risk/opportunity, and urgency. Reject people-problem framing.
 - **Step 3 — Desired Outcome (BVSSH):** Capture concrete end-state descriptions across Better, Value, Sooner, Safer, Happier. Ensure at least three dimensions have meaningful, non-generic content.
@@ -32,10 +32,10 @@ Purpose: prescribe the BVSSH outcome creation workflow for any session touching 
 - **Iterate (🔄):** User uncertainty; contradictions; hypothesis misaligned with desired outcome; behaviors not tied to hypothesis.
 
 ## Output Assembly
-- Write `bvssh/YYYY/<level>/<outcome-slug>.md` using the `bvssh/index.md` template.
+- Write `bvssh/YYYY/<level>/<theme>-<outcome-slug>.md` using the `bvssh/index.md` template.
 - Populate all sections with refined responses and confirm with the user before saving.
 
 ## References
 - Use the dedicated prompt in `.github/prompts/bvssh-outcome-facilitation.prompt.md` to drive questioning.
 - Run with the agent profile in `.github/agents/bvssh-outcome-facilitator.agent.md`.
-- Follow repository conventions: [GROUND_RULES.md](../../GROUND_RULES.md).
+- Follow repository conventions: [GROUND_RULES.md](../../../GROUND_RULES.md).

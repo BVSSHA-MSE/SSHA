@@ -14,9 +14,10 @@
 
 ---
 
-## 1) Year & Level
+## 1) Year & Level & Theme
 - Year: [YYYY]
 - Level: [Team | Program | Portfolio]
+- Theme: [Theme]
 
 ## 2) Outcome Name
 - 3–7 words; outcome-focused; avoid activity verbs.

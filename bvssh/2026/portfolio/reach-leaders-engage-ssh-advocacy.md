@@ -15,9 +15,9 @@
 - **Outcome Name (3–7 words):** Leaders Engage with SSH Advocacy
 
 ## 3) Context & Tension
-- **Current state:** No SSH advocacy pieces published yet; SSH ideas stay internal; burnt-out practitioners lack access to SSH vocabulary and frameworks.
+- **Current state:** No SSH advocacy pieces published yet; SSH ideas stay internal; leaders lack access to SSH vocabulary and frameworks.
 - **Observable tension:** Leaders toiling without realizing it's toil; no external SSH presence to legitimize their pain or enable discovery of sustainable work alternatives; production is upstream constraint (can't measure engagement without pieces).
-- **Why now:** Burnout cascade risk across BVSSH dimensions (Better, Value, Sooner, Safer, Happier); engagement enables amplification (viral spread, recruiting advocates, higher adoption); 2026 is year to establish external SSH advocacy reach.
+- **Why now:** Burnout cascade risk across BVSSH dimensions (Better, Value, Sooner, Safer, Happier); engagement enables amplification (reach, recruiting advocates, higher adoption); 2026 is year to establish compounding external SSH advocacy reach.
 - **Parent link:** Assumes Program/Team deliver production + distribution; Portfolio measures engagement outcomes to validate resonance and guide future piece prioritization.
 
 ## 4) Desired Outcome (BVSSH)
@@ -30,7 +30,7 @@
 - **Safer:** Prevents burnout cascade; apathy → safety risks reduced; engagement ≠ agreement (critical comments = success signal vs. silence = failure).
 
 ## 5) Outcome Hypothesis
-- **Hypothesis:** Publishing 6+ SSH advocacy pieces — and measuring engagement via comments, shares, citations, questions — will validate which BVSSH dimension (Happier/Sooner/Better) resonates most with burnt-out leaders, because engagement patterns reveal discovery mechanisms and enable future piece optimization for viral spread.
+- **Hypothesis:** Publishing 6+ SSH advocacy pieces — and measuring engagement via comments, shares, citations, questions — will validate which BVSSH dimension (Happier/Sooner/Better) resonates most with leaders facing challenging work environments, because engagement patterns reveal discovery mechanisms and enable future piece optimization for reach.
 
 ## 6) Expected Behavioral Change (observable)
 - **Before:** SSH ideas stay internal; no external advocacy pieces; leaders stay silent, toiling without SSH language; no conversation or engagement.
@@ -45,7 +45,7 @@
   - Piece-to-engagement lag: median days from publish to first engagement (comment/share/citation) (trend: ↓ toward <7 days).
 - **Lagging (1–3):**
   - Engagement rate: (comments + shares + citations + questions) / views per piece, aggregated quarterly (trend: ↑ toward ≥5%; baseline established Q1).
-  - Conversation velocity: shares + citations per piece per month (trend: ↑; validates viral spread hypothesis).
+  - Conversation velocity: shares + citations per piece per month (trend: ↑; validates reach hypothesis).
   - Audience growth: follower count on LinkedIn + blog subscribers (trend: ↑; enables compounding reach).
 
 ## 8) Constraints & Guardrails

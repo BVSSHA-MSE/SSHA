@@ -1,15 +1,17 @@
 ---
-name: DDD Application Patterns (Ruby)
-description: Application service and CQRS patterns for DDD in Ruby.
+name: DDD Application Patterns
+description: Application service and CQRS patterns for DDD.
 applyTo: '**/*.rb'
 ---
 
-# DDD Application Patterns (Ruby)
+# DDD Application Patterns
 
-When generating application layer code, follow these patterns:
+When generating application layer code, follow these patterns
+
+**Phase**: 🔨 implement
 
 ## Application Services
-**Purpose:** Orchestrate use cases; coordinate domain objects, repos, and events.
+**Purpose:** Orchestrate use cases; coordinate domain objects, repos, and events
 **Rules:**
 - Inject dependencies (repos, services, event bus)
 - No business logic—delegate to domain
@@ -37,8 +39,8 @@ end
 ## CQRS (Command Query Responsibility Segregation)
 
 ### Commands
-**Purpose:** Change state.
-**Rules:** Return void or ID only; never return data for reading.
+**Purpose:** Change state
+**Rules:** Return void or ID only; never return data for reading
 ```ruby
 # ✅ Command: changes state, returns ID
 class CreateUserCommand
@@ -51,8 +53,8 @@ end
 ```
 
 ### Queries
-**Purpose:** Read data.
-**Rules:** Never change state; return DTOs or read models.
+**Purpose:** Read data
+**Rules:** Never change state; return DTOs or read models
 ```ruby
 # ✅ Query: reads data, no side effects
 class UsersByStatusQuery

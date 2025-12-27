@@ -1,15 +1,17 @@
 ---
-name: DDD Modeling Guidelines (Ruby)
-description: Guidelines for discovering and refining domain models in Ruby DDD projects.
+name: DDD Modeling Guidelines
+description: Guidelines for discovering and refining domain models in DDD projects.
 applyTo: '**/*.rb'
 ---
 
-# DDD Modeling Guidelines (Ruby)
+# DDD Modeling Guidelines
 
-When discovering or refining domain models, apply these techniques:
+When discovering or refining domain models, apply these techniques
+
+**Phase**: 🔨 implement
 
 ## Make Implicit Concepts Explicit
-**When:** You see strings/symbols representing domain concepts.
+**When:** You see strings/symbols representing domain concepts
 ```ruby
 # ❌ WRONG: Implicit status as symbol
 order.status = :pending_approval
@@ -23,7 +25,7 @@ order.status = PendingApproval.new
 ```
 
 ## Push Behavior Into Domain Objects
-**When:** Logic operates on object's data from outside.
+**When:** Logic operates on object's data from outside
 ```ruby
 # ❌ WRONG: External logic
 if order.total > 100 && order.customer.vip?
@@ -40,7 +42,7 @@ end
 ```
 
 ## Extract Value Objects From Primitives
-**When:** Primitives have validation, formatting, or operations.
+**When:** Primitives have validation, formatting, or operations
 ```ruby
 # ❌ WRONG: Primitive string with implicit rules
 email = "user@example.com"
@@ -55,7 +57,7 @@ end
 ```
 
 ## Use Domain Events for Temporal Concepts
-**When:** "When X happens, then Y" appears in requirements.
+**When:** "When X happens, then Y" appears in requirements
 ```ruby
 # ✅ Capture the moment something happened
 OrderPlaced = Struct.new(:order_id, :placed_at, keyword_init: true)

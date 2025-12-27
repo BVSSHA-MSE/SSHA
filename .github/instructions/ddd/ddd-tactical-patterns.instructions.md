@@ -1,15 +1,17 @@
 ---
-name: DDD Tactical Patterns (Ruby)
-description: Tactical DDD patterns for Ruby, including Entity, Value Object, Aggregate, Domain Event, Repository, Domain Service, Factory, Specification.
+name: DDD Tactical Patterns
+description: Tactical DDD patterns, including Entity, Value Object, Aggregate, Domain Event, Repository, Domain Service, Factory, Specification.
 applyTo: '**/*.rb'
 ---
 
-# DDD Tactical Patterns (Ruby)
+# DDD Tactical Patterns
 
-When implementing domain logic, use these tactical building blocks:
+When implementing domain logic, use these tactical building blocks
+
+**Phase**: 🔨 implement
 
 ## Entity
-- **Unique identity, mutable.**
+- **Constraint:** Unique identity, mutable
 ```ruby
 class Order
   attr_reader :id, :items, :status
@@ -32,7 +34,7 @@ end
 ```
 
 ## Value Object
-- **Immutable, compared by value.**
+- **Constraint:** Immutable, compared by value
 ```ruby
 class Money
   attr_reader :amount, :currency
@@ -58,7 +60,7 @@ end
 ```
 
 ## Aggregate
-- **Cluster of entities/value objects, root enforces invariants.**
+- **Constraint:** Cluster of entities/value objects, root enforces invariants
 ```ruby
 class Order
   # Aggregate Root
@@ -74,7 +76,7 @@ end
 ```
 
 ## Domain Event
-- **Immutable, past-tense, enough info for consumers.**
+- **Constraint:** Immutable, past-tense, enough info for consumers
 ```ruby
 OrderPlaced = Struct.new(:order_id, :customer_id, :total, :occurred_at, keyword_init: true)
 ```
@@ -94,7 +96,7 @@ end
 ```
 
 ## Domain Service
-- **Stateless, for operations not belonging to entities/VOs.**
+- **Constraint:** Stateless, for operations not belonging to entities/VOs
 ```ruby
 class TransferMoneyService
   def transfer(from:, to:, amount:)
@@ -105,7 +107,7 @@ end
 ```
 
 ## Factory
-- **Encapsulates complex creation logic.**
+- **Constraint:** Encapsulates complex creation logic
 ```ruby
 class OrderFactory
   def self.create_from_cart(cart, customer_id)
@@ -116,7 +118,7 @@ end
 ```
 
 ## Specification
-- **Encapsulates selection logic, composable.**
+- **Constraint:** Encapsulates selection logic, composable
 ```ruby
 class OrdersOverAmount
   def initialize(amount)

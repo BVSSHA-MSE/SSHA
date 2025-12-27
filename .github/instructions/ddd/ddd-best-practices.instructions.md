@@ -1,12 +1,14 @@
 ---
-name: DDD Best Practices (Ruby)
-description: Best practices for implementing DDD in Ruby projects.
+name: DDD Best Practices
+description: Best practices for implementing DDD.
 applyTo: '**/*.rb'
 ---
 
-# DDD Best Practices (Ruby)
+# DDD Best Practices
 
-When generating or reviewing Ruby DDD code, apply these practices:
+When generating or reviewing DDD code, apply these practices
+
+**Phase**: 🔨 implement
 
 ## Model Behavior, Not Just Structure
 ```ruby
@@ -19,7 +21,7 @@ end
 class Order
   def submit
     raise "Empty order" if @items.empty?
-    @status = :submitted
+    @status = OrderSubmitted.new
   end
 end
 ```
@@ -67,7 +69,7 @@ end
 # ✅ Adapter (infrastructure implementation)
 class PostgresOrderRepository < OrderRepository
   def save(order)
-    # ActiveRecord/SQL here, not in domain
+    # ORM here, not in domain
   end
 end
 ```

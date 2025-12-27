@@ -1,15 +1,17 @@
 ---
-name: DDD Integration Patterns (Ruby)
-description: Integration patterns for DDD in Ruby, including ACL and domain events.
+name: DDD Integration Patterns
+description: Integration patterns for DDD, including ACL and domain events.
 applyTo: '**/*.rb'
 ---
 
-# DDD Integration Patterns (Ruby)
+# DDD Integration Patterns
 
-When integrating with external systems or other bounded contexts, apply these patterns:
+When integrating with external systems or other bounded contexts, apply these patterns
+
+**Phase**: 🔨 implement
 
 ## Anti-Corruption Layer (ACL)
-**Purpose:** Translate external models to protect your domain from outside pollution.
+**Purpose:** Translate external models to protect your domain from outside pollution
 **Rules:**
 - Never let external DTOs/schemas leak into domain
 - Create adapters that translate to/from domain objects
@@ -41,7 +43,7 @@ end
 ```
 
 ## Domain Events
-**Purpose:** Enable loose coupling and eventual consistency between contexts.
+**Purpose:** Enable loose coupling and eventual consistency between contexts
 **Rules:**
 - Name in past tense (something happened)
 - Include all data consumers need
@@ -59,7 +61,7 @@ class OrderService
       order_id: order.id,
       tracking_number: tracking_number,
       carrier: carrier,
-      shipped_at: Time.now
+      shipped_at: Clock.now
     ))
   end
 end

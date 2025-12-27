@@ -1,18 +1,20 @@
 ---
-name: DDD Core Philosophy (Ruby)
-description: Core principles and philosophy of Domain-Driven Design for Ruby projects.
+name: DDD Core Philosophy
+description: Core principles and philosophy of Domain-Driven Design.
 applyTo: '**/*.rb'
 ---
 
-# DDD Core Philosophy (Ruby)
+# DDD Core Philosophy
 
-When designing or reviewing Ruby DDD code, apply these core principles:
+When designing or reviewing DDD code, apply these core principles
+
+**Phase**: 🔨 implement
 
 ## Domain First
-Model the business domain, not the database or framework.
+Model the business domain, not the database or framework
 ```ruby
-# ❌ WRONG: Database-driven naming
-class OrderRecord
+# ❌ WRONG: Database Framework driven naming
+class EFOrderContainers
   attr_accessor :order_status_id, :fk_customer
 end
 
@@ -23,7 +25,7 @@ end
 ```
 
 ## Ubiquitous Language
-Use the same terms domain experts use—in code, docs, and conversation.
+Use the same terms domain experts use—in code, docs, and conversation
 ```ruby
 # ❌ WRONG: Technical jargon
 def process_entity(dto)
@@ -33,16 +35,16 @@ def place_order(cart)
 ```
 
 ## Bounded Contexts
-Explicitly define where each model/term is valid. Same word can mean different things in different contexts.
+Explicitly define where each model/term is valid. Same word can mean different things in different contexts
 ```ruby
-# Billing context: Customer has payment methods
+# ✅ Billing context: Customer has payment methods
 module Billing
   class Customer
     attr_reader :payment_methods
   end
 end
 
-# Shipping context: Customer has addresses
+# ✅ Shipping context: Customer has addresses
 module Shipping
   class Customer
     attr_reader :shipping_addresses

@@ -108,4 +108,4 @@
 # Supporting Work
 
 1. update ddd instructions applyTo only include *.rb files.
-2. 
+2. refine ddd instructions to increase quality

@@ -32,3 +32,7 @@
 ## Notes
 - Documentation guides behavior; hard enforcement still requires a `commit-msg` hook or CI validation.
 - Keep instructions current as `bvssh/` years and outcomes evolve.
+
+## What is working
+- Outcomes are always included in commit messages generated via VS Code Copilot.
+- The chosen outcomes are best chosen when manually marked as the right outcome: maintain a 'Supporting Work' section in the outcome file/s.

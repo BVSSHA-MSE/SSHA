@@ -1,7 +1,7 @@
 ---
 name: DDD Modeling Guidelines (Ruby)
 description: Guidelines for discovering and refining domain models in Ruby DDD projects.
-applyTo: '**/*.rb, docs/**/*.md'
+applyTo: '**/*.rb'
 ---
 
 # DDD Modeling Guidelines (Ruby)

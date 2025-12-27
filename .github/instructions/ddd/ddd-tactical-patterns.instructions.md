@@ -1,7 +1,7 @@
 ---
 name: DDD Tactical Patterns (Ruby)
 description: Tactical DDD patterns for Ruby, including Entity, Value Object, Aggregate, Domain Event, Repository, Domain Service, Factory, Specification.
-applyTo: '**/*.rb, docs/**/*.md'
+applyTo: '**/*.rb'
 ---
 
 # DDD Tactical Patterns (Ruby)

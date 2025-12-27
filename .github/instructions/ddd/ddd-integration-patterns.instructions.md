@@ -1,7 +1,7 @@
 ---
 name: DDD Integration Patterns (Ruby)
 description: Integration patterns for DDD in Ruby, including ACL and domain events.
-applyTo: '**/*.rb, docs/**/*.md'
+applyTo: '**/*.rb'
 ---
 
 # DDD Integration Patterns (Ruby)

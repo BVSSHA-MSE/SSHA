@@ -1,7 +1,7 @@
 ---
 name: DDD Core Philosophy (Ruby)
 description: Core principles and philosophy of Domain-Driven Design for Ruby projects.
-applyTo: '**/*.rb, docs/**/*.md'
+applyTo: '**/*.rb'
 ---
 
 # DDD Core Philosophy (Ruby)

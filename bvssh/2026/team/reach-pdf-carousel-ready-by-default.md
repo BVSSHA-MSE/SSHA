@@ -103,3 +103,9 @@
 - **CI + Git Hooks (Due Jan 15):** Workflow runs build/tests, publishes artifacts; local hooks guard against broken outputs.
 
 ---
+
+
+# Supporting Work
+
+1. update ddd instructions applyTo only include *.rb files.
+2. 

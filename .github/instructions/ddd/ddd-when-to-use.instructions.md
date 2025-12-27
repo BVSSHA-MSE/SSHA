@@ -1,7 +1,7 @@
 ---
 name: When to Use DDD (Ruby)
 description: Guidance on when DDD is a good or poor fit for Ruby projects.
-applyTo: 'src/**/*.rb, docs/**/*.md'
+applyTo: '**/*.rb'
 ---
 
 # When to Use DDD (Ruby)

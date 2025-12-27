@@ -1,7 +1,7 @@
 ---
 name: DDD Application Patterns (Ruby)
 description: Application service and CQRS patterns for DDD in Ruby.
-applyTo: '**/*.rb, docs/**/*.md'
+applyTo: '**/*.rb'
 ---
 
 # DDD Application Patterns (Ruby)

@@ -2,7 +2,7 @@
 **Year:** 2026  
 **Level:** Team  
 **Theme:** Coherence  
-**Status:** Ongoing (automation in place; measuring signals)
+**Status:** Active (automation in place; measuring signals)
 
 ---
 

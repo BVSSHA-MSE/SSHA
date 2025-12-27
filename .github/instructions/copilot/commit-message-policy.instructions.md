@@ -1,7 +1,6 @@
 ---
 name: Copilot Commit Message Policy
 description: Commit message policy for all contributions to the SSHA workspace
-applyTo: '**'
 ---
 # Commit Message Policy
 
@@ -35,8 +34,8 @@ Previously, users could only filter by date and author; now they can filter by t
 
 - Mandatory: every conventional commit must reference the most relevant active BVSSH outcome(s) from the latest year under `bvssh/`.
 - Guidance: follow the companion instructions in [commit-message-outcome-linking.instructions.md](commit-message-outcome-linking.instructions.md) to discover outcomes and determine relevance.
-- Formatting: add one footer line per outcome after the commit body using:
-	- `Outcome: bvssh/<YYYY>/<level>/<slug>.md — <Outcome Title>`
+- Formatting: add one footer line for each relevant outcome after the commit body using:
+	- `Outcome: bvssh/<YYYY>/<level>/<theme>-<outcome-slug>.md — <Outcome Title>`
 - Number of outcomes: include one if clearly dominant; otherwise include up to two outcomes.
 - Exception (rare): if no outcome applies, add `Outcome: none — <brief reason>`.
 

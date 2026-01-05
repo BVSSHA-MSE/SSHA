@@ -14,15 +14,12 @@ Anchor responses in [GROUND_RULES.md](../GROUND_RULES.md); stay concise and hone
 - Knowledge base in kb/; keep agent notes tidy, ASCII, and organized by topic.
 
 ## Instruction Modules
-- [Project Overview](instructions/copilot/project-overview.instructions.md)
-- [Key Files & Structure](instructions/copilot/key-files-structure.instructions.md)
-- [Guidance for AI Agents](instructions/copilot/guidance-for-ai-agents.instructions.md)
-- [Theme Selection Guidance](instructions/copilot/theme-selection.instructions.md)
-- [Universal Artifact Theming](instructions/copilot/universal-artifact-theming.instructions.md)
-- [Theme Trail Backlinks Automation](instructions/copilot/theme-trail-backlinks.instructions.md)
-- [Commit Message Policy](instructions/copilot/commit-message-policy.instructions.md)
-- [Commit Message Outcome Linking](instructions/copilot/commit-message-outcome-linking.instructions.md)
-- [License](instructions/copilot/license.instructions.md)
-- [Ruby Specs Directory Convention](instructions/copilot/rubyspecs-folder.instructions.md)
+- instructions/copilot/project-overview.instructions.md
+- instructions/copilot/key-files-structure.instructions.md
+- instructions/copilot/guidance-for-ai-agents.instructions.md
+- instructions/copilot/theme-selection.instructions.md
+- instructions/copilot/universal-artifact-theming.instructions.md
+- instructions/copilot/theme-trail-backlinks.instructions.md
+- instructions/copilot/rubyspecs-folder.instructions.md
 
 Update or extend individual sections as the workflow evolves.

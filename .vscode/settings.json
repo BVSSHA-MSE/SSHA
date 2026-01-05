@@ -5,10 +5,7 @@
       "text": "Use strict conventional commit v1.0.0 message format allowing Keep a Changelog v1.1.0 generation."
     },
     {
-      "file": ".github/instructions/copilot/commit-message-policy.instructions.md"
-    },
-    {
-      "file": ".github/instructions/copilot/commit-message-outcome-linking.instructions.md"
+      "file": "CONVENTIONAL_COMMITS.md"
     }
   ]
 }

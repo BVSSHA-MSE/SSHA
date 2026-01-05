@@ -169,7 +169,6 @@ This instruction defines non-negotiable values and conduct guardrails for all ad
 
 ## Links & References
 - [GROUND_RULES.md](../../../GROUND_RULES.md) — Forbidden words, honesty guardrails
-- [Conventional Commits Policy](../copilot/commit-message-policy.instructions.md) — Commit format + outcome reference requirement
 - [Theme Selection Guidance](../copilot/theme-selection.instructions.md) — How to tag artifacts correctly
 - [Universal Artifact Theming](../copilot/universal-artifact-theming.instructions.md) — Full artifact lifecycle
 

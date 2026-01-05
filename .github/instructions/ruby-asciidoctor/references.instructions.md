@@ -12,4 +12,13 @@ applyTo: 'src/**/*.rb, src/**/*.adoc, output/**/*.html, output/**/*.pdf, output/
 - [asciidoctor-reveal.js Docs](https://docs.asciidoctor.org/reveal.js-converter/latest/)
 - [asciidoctor-diagram Docs](https://docs.asciidoctor.org/diagram-extension/latest/)
 
+# Documents
+
+- [Asciidoc Specification](../../resources/asciidoc-pre-spec.pdf)
+- [Asciidoctor EPUB3 Specification](../../resources/asciidoctor-epub3-converter-reference.pdf)
+- [Asciidoctor PDF Specification](../../resources/asciidoctor-pdf-converter-reference.pdf)
+- [Asciidoc DDD Ruby Framework](../../resources/ddd_asciidoc_ruby_framework.pdf)
+- [Asciidoc DDD Ruby Framework Code Samples](../../resources/ddd_asciidoc_ruby_framework_code_samples.pdf)
+- [Ruby for .NET Developers](../../resources/ruby-for-net-developers.pdf)
+
 *Update this file as the workflow evolves or new plugins/formats are added.*

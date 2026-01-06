@@ -4,6 +4,14 @@ module AsciiDocBuilder
     class Rules
       class Violation < StandardError; end
 
+      def validate_book!(book)
+        book.children.each do |part|
+          if part.is_a?(Part) && part.children.none? { |child| child.is_a?(Chapter) }
+            raise Violation, "Each part must contain at least one chapter."
+          end
+        end
+      end
+
       def validate_sections!(root)
         validate_section_hierarchy!(root, expected_level: 1, root_level: 1)
       end

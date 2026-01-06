@@ -14,4 +14,10 @@ module AsciiDocBuilder
     autoload :Part, 'domain/part'
     autoload :Chapter, 'domain/chapter'
   end
+
+  module Infrastructure
+    module Persistence
+      autoload :FilesystemRepository, 'infrastructure/persistence/filesystemrepository'
+    end
+  end
 end
